@@ -7,25 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F48C1ED21AEC3D000E410B9 /* HHCoreAnimationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F48C1EB21AEC3D000E410B9 /* HHCoreAnimationController.xib */; };
+		1F48C1EE21AEC81A00E410B9 /* HHCoreAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F48C1EA21AEC3D000E410B9 /* HHCoreAnimationController.m */; };
+		1F48C1F321AEDB9C00E410B9 /* HHTouchPadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F48C1F121AEDB9C00E410B9 /* HHTouchPadController.m */; };
+		1F48C1F421AEDB9C00E410B9 /* HHTouchPadController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F48C1F221AEDB9C00E410B9 /* HHTouchPadController.xib */; };
+		1F48C1F821AEE0A400E410B9 /* 917971.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F48C1F721AEE0A400E410B9 /* 917971.jpg */; };
+		1F48C1FB21AEE65200E410B9 /* HHTiledLayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F48C1FA21AEE65200E410B9 /* HHTiledLayerController.m */; };
+		1F48C1FE21AEF2A900E410B9 /* HHReplicationLayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F48C1FD21AEF2A900E410B9 /* HHReplicationLayerController.m */; };
+		1F4F441B21B261E50076C37D /* arthur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F4F441A21B261E50076C37D /* arthur.jpg */; };
+		1F4F441E21B261FE0076C37D /* HHTransformController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4F441D21B261FE0076C37D /* HHTransformController.m */; };
+		1F4F442321B275960076C37D /* HHScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4F442221B275960076C37D /* HHScrollViewController.m */; };
+		1F4F442721B3B2800076C37D /* UIApplication+RunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4F442621B3B2800076C37D /* UIApplication+RunLoop.m */; };
+		1F4F442C21B3D97A0076C37D /* HHAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4F442B21B3D97A0076C37D /* HHAudioController.m */; };
+		1F4F443021B3DED30076C37D /* HHGcdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4F442F21B3DED30076C37D /* HHGcdController.m */; };
 		1F570C0C21A59E44000873E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F570C0B21A59E44000873E8 /* AppDelegate.m */; };
 		1F570C0F21A59E44000873E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F570C0E21A59E44000873E8 /* ViewController.m */; };
-		1F570C1221A59E44000873E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F570C1021A59E44000873E8 /* Main.storyboard */; };
 		1F570C1421A59E45000873E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F570C1321A59E45000873E8 /* Assets.xcassets */; };
 		1F570C1721A59E45000873E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F570C1521A59E45000873E8 /* LaunchScreen.storyboard */; };
 		1F570C1A21A59E45000873E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F570C1921A59E45000873E8 /* main.m */; };
+		1FB0BF1921B7FA6500CABE1C /* HHSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB0BF1821B7FA6500CABE1C /* HHSortController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F48C1E921AEC3D000E410B9 /* HHCoreAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHCoreAnimationController.h; sourceTree = "<group>"; };
+		1F48C1EA21AEC3D000E410B9 /* HHCoreAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHCoreAnimationController.m; sourceTree = "<group>"; };
+		1F48C1EB21AEC3D000E410B9 /* HHCoreAnimationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HHCoreAnimationController.xib; sourceTree = "<group>"; };
+		1F48C1F021AEDB9C00E410B9 /* HHTouchPadController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHTouchPadController.h; sourceTree = "<group>"; };
+		1F48C1F121AEDB9C00E410B9 /* HHTouchPadController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHTouchPadController.m; sourceTree = "<group>"; };
+		1F48C1F221AEDB9C00E410B9 /* HHTouchPadController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HHTouchPadController.xib; sourceTree = "<group>"; };
+		1F48C1F721AEE0A400E410B9 /* 917971.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 917971.jpg; sourceTree = "<group>"; };
+		1F48C1F921AEE65200E410B9 /* HHTiledLayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHTiledLayerController.h; sourceTree = "<group>"; };
+		1F48C1FA21AEE65200E410B9 /* HHTiledLayerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHTiledLayerController.m; sourceTree = "<group>"; };
+		1F48C1FC21AEF2A900E410B9 /* HHReplicationLayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHReplicationLayerController.h; sourceTree = "<group>"; };
+		1F48C1FD21AEF2A900E410B9 /* HHReplicationLayerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHReplicationLayerController.m; sourceTree = "<group>"; };
+		1F4F441A21B261E50076C37D /* arthur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arthur.jpg; sourceTree = "<group>"; };
+		1F4F441C21B261FE0076C37D /* HHTransformController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHTransformController.h; sourceTree = "<group>"; };
+		1F4F441D21B261FE0076C37D /* HHTransformController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHTransformController.m; sourceTree = "<group>"; };
+		1F4F441F21B269860076C37D /* Colors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Colors.h; sourceTree = "<group>"; };
+		1F4F442121B275960076C37D /* HHScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHScrollViewController.h; sourceTree = "<group>"; };
+		1F4F442221B275960076C37D /* HHScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHScrollViewController.m; sourceTree = "<group>"; };
+		1F4F442521B3B2680076C37D /* UIApplication+RunLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+RunLoop.h"; sourceTree = "<group>"; };
+		1F4F442621B3B2800076C37D /* UIApplication+RunLoop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+RunLoop.m"; sourceTree = "<group>"; };
+		1F4F442A21B3D97A0076C37D /* HHAudioController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHAudioController.h; sourceTree = "<group>"; };
+		1F4F442B21B3D97A0076C37D /* HHAudioController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHAudioController.m; sourceTree = "<group>"; };
+		1F4F442E21B3DED30076C37D /* HHGcdController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHGcdController.h; sourceTree = "<group>"; };
+		1F4F442F21B3DED30076C37D /* HHGcdController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHGcdController.m; sourceTree = "<group>"; };
 		1F570C0721A59E44000873E8 /* VisionIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F570C0A21A59E44000873E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1F570C0B21A59E44000873E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1F570C0D21A59E44000873E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1F570C0E21A59E44000873E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1F570C1121A59E44000873E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F570C1321A59E45000873E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F570C1621A59E45000873E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F570C1821A59E45000873E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F570C1921A59E45000873E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FB0BF1721B7FA6500CABE1C /* HHSortController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHSortController.h; sourceTree = "<group>"; };
+		1FB0BF1821B7FA6500CABE1C /* HHSortController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHSortController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +76,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F48C1E821AEC30300E410B9 /* CoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				1F48C1E921AEC3D000E410B9 /* HHCoreAnimationController.h */,
+				1F48C1EA21AEC3D000E410B9 /* HHCoreAnimationController.m */,
+				1F48C1EB21AEC3D000E410B9 /* HHCoreAnimationController.xib */,
+				1F48C1F921AEE65200E410B9 /* HHTiledLayerController.h */,
+				1F48C1FA21AEE65200E410B9 /* HHTiledLayerController.m */,
+				1F48C1FC21AEF2A900E410B9 /* HHReplicationLayerController.h */,
+				1F48C1FD21AEF2A900E410B9 /* HHReplicationLayerController.m */,
+				1F4F441C21B261FE0076C37D /* HHTransformController.h */,
+				1F4F441D21B261FE0076C37D /* HHTransformController.m */,
+			);
+			path = CoreAnimation;
+			sourceTree = "<group>";
+		};
+		1F48C1EF21AEDB6E00E410B9 /* ResponderChain */ = {
+			isa = PBXGroup;
+			children = (
+				1F48C1F021AEDB9C00E410B9 /* HHTouchPadController.h */,
+				1F48C1F121AEDB9C00E410B9 /* HHTouchPadController.m */,
+				1F48C1F221AEDB9C00E410B9 /* HHTouchPadController.xib */,
+			);
+			path = ResponderChain;
+			sourceTree = "<group>";
+		};
+		1F48C1F521AEE03F00E410B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F4F441A21B261E50076C37D /* arthur.jpg */,
+				1F48C1F721AEE0A400E410B9 /* 917971.jpg */,
+				1F570C1521A59E45000873E8 /* LaunchScreen.storyboard */,
+				1F570C1821A59E45000873E8 /* Info.plist */,
+				1F570C1921A59E45000873E8 /* main.m */,
+				1F4F441F21B269860076C37D /* Colors.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F48C1F621AEE05600E410B9 /* Vision */ = {
+			isa = PBXGroup;
+			children = (
+				1F570C0D21A59E44000873E8 /* ViewController.h */,
+				1F570C0E21A59E44000873E8 /* ViewController.m */,
+			);
+			path = Vision;
+			sourceTree = "<group>";
+		};
+		1F4F442021B275770076C37D /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				1F4F442121B275960076C37D /* HHScrollViewController.h */,
+				1F4F442221B275960076C37D /* HHScrollViewController.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		1F4F442421B3AFC80076C37D /* RunLoop */ = {
+			isa = PBXGroup;
+			children = (
+				1F4F442521B3B2680076C37D /* UIApplication+RunLoop.h */,
+				1F4F442621B3B2800076C37D /* UIApplication+RunLoop.m */,
+			);
+			path = RunLoop;
+			sourceTree = "<group>";
+		};
+		1F4F442821B3C0150076C37D /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				1F4F442A21B3D97A0076C37D /* HHAudioController.h */,
+				1F4F442B21B3D97A0076C37D /* HHAudioController.m */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		1F4F442D21B3DEB30076C37D /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				1F4F442E21B3DED30076C37D /* HHGcdController.h */,
+				1F4F442F21B3DED30076C37D /* HHGcdController.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
 		1F570BFE21A59E44000873E8 = {
 			isa = PBXGroup;
 			children = (
@@ -58,17 +179,29 @@
 		1F570C0921A59E44000873E8 /* VisionIOS */ = {
 			isa = PBXGroup;
 			children = (
+				1FB0BF1621B7F9E100CABE1C /* Sort */,
+				1F4F442D21B3DEB30076C37D /* GCD */,
+				1F4F442821B3C0150076C37D /* Audio */,
+				1F4F442421B3AFC80076C37D /* RunLoop */,
+				1F4F442021B275770076C37D /* UIKit */,
+				1F48C1F621AEE05600E410B9 /* Vision */,
+				1F48C1EF21AEDB6E00E410B9 /* ResponderChain */,
+				1F48C1E821AEC30300E410B9 /* CoreAnimation */,
 				1F570C0A21A59E44000873E8 /* AppDelegate.h */,
 				1F570C0B21A59E44000873E8 /* AppDelegate.m */,
-				1F570C0D21A59E44000873E8 /* ViewController.h */,
-				1F570C0E21A59E44000873E8 /* ViewController.m */,
-				1F570C1021A59E44000873E8 /* Main.storyboard */,
 				1F570C1321A59E45000873E8 /* Assets.xcassets */,
-				1F570C1521A59E45000873E8 /* LaunchScreen.storyboard */,
-				1F570C1821A59E45000873E8 /* Info.plist */,
-				1F570C1921A59E45000873E8 /* main.m */,
+				1F48C1F521AEE03F00E410B9 /* Supporting Files */,
 			);
 			path = VisionIOS;
+			sourceTree = "<group>";
+		};
+		1FB0BF1621B7F9E100CABE1C /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				1FB0BF1721B7FA6500CABE1C /* HHSortController.h */,
+				1FB0BF1821B7FA6500CABE1C /* HHSortController.m */,
+			);
+			path = Sort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,8 +262,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F570C1721A59E45000873E8 /* LaunchScreen.storyboard in Resources */,
+				1F48C1F421AEDB9C00E410B9 /* HHTouchPadController.xib in Resources */,
+				1F48C1ED21AEC3D000E410B9 /* HHCoreAnimationController.xib in Resources */,
 				1F570C1421A59E45000873E8 /* Assets.xcassets in Resources */,
-				1F570C1221A59E44000873E8 /* Main.storyboard in Resources */,
+				1F48C1F821AEE0A400E410B9 /* 917971.jpg in Resources */,
+				1F4F441B21B261E50076C37D /* arthur.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,22 +278,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F570C0F21A59E44000873E8 /* ViewController.m in Sources */,
+				1F48C1F321AEDB9C00E410B9 /* HHTouchPadController.m in Sources */,
+				1F4F443021B3DED30076C37D /* HHGcdController.m in Sources */,
+				1F4F441E21B261FE0076C37D /* HHTransformController.m in Sources */,
+				1F48C1FE21AEF2A900E410B9 /* HHReplicationLayerController.m in Sources */,
+				1F48C1FB21AEE65200E410B9 /* HHTiledLayerController.m in Sources */,
+				1F48C1EE21AEC81A00E410B9 /* HHCoreAnimationController.m in Sources */,
+				1F4F442721B3B2800076C37D /* UIApplication+RunLoop.m in Sources */,
 				1F570C1A21A59E45000873E8 /* main.m in Sources */,
+				1FB0BF1921B7FA6500CABE1C /* HHSortController.m in Sources */,
 				1F570C0C21A59E44000873E8 /* AppDelegate.m in Sources */,
+				1F4F442C21B3D97A0076C37D /* HHAudioController.m in Sources */,
+				1F4F442321B275960076C37D /* HHScrollViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1F570C1021A59E44000873E8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F570C1121A59E44000873E8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1F570C1521A59E45000873E8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,14 +425,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z3FWA45AZZ;
-				INFOPLIST_FILE = VisionIOS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/VisionIOS/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hshou.VisionIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,14 +442,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z3FWA45AZZ;
-				INFOPLIST_FILE = VisionIOS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/VisionIOS/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hshou.VisionIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
