@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F25F9E021C0100F0007C147 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F25F9DE21C0100F0007C147 /* YYFPSLabel.m */; };
+		1F45982B21BEC986007E1620 /* HHView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F45982A21BEC986007E1620 /* HHView.m */; };
 		1F48C1ED21AEC3D000E410B9 /* HHCoreAnimationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F48C1EB21AEC3D000E410B9 /* HHCoreAnimationController.xib */; };
 		1F48C1EE21AEC81A00E410B9 /* HHCoreAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F48C1EA21AEC3D000E410B9 /* HHCoreAnimationController.m */; };
 		1F48C1F321AEDB9C00E410B9 /* HHTouchPadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F48C1F121AEDB9C00E410B9 /* HHTouchPadController.m */; };
@@ -26,10 +28,16 @@
 		1F570C1721A59E45000873E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F570C1521A59E45000873E8 /* LaunchScreen.storyboard */; };
 		1F570C1A21A59E45000873E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F570C1921A59E45000873E8 /* main.m */; };
 		1F6FB11821B955D80006734D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FB11721B955D70006734D /* ViewController.m */; };
+		1F6FB11B21B9589B0006734D /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FB11A21B9589B0006734D /* stack.c */; };
+		1F6FB11F21B973B20006734D /* Algorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FB11E21B973B20006734D /* Algorithms.m */; };
 		1FB0BF1921B7FA6500CABE1C /* HHSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB0BF1821B7FA6500CABE1C /* HHSortController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F25F9DE21C0100F0007C147 /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		1F25F9DF21C0100F0007C147 /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		1F45982921BEC986007E1620 /* HHView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHView.h; sourceTree = "<group>"; };
+		1F45982A21BEC986007E1620 /* HHView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHView.m; sourceTree = "<group>"; };
 		1F48C1E921AEC3D000E410B9 /* HHCoreAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHCoreAnimationController.h; sourceTree = "<group>"; };
 		1F48C1EA21AEC3D000E410B9 /* HHCoreAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHCoreAnimationController.m; sourceTree = "<group>"; };
 		1F48C1EB21AEC3D000E410B9 /* HHCoreAnimationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HHCoreAnimationController.xib; sourceTree = "<group>"; };
@@ -63,6 +71,10 @@
 		1F570C1821A59E45000873E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F570C1921A59E45000873E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F6FB11721B955D70006734D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F6FB11921B9589B0006734D /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		1F6FB11A21B9589B0006734D /* stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
+		1F6FB11D21B973B20006734D /* Algorithms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Algorithms.h; sourceTree = "<group>"; };
+		1F6FB11E21B973B20006734D /* Algorithms.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Algorithms.m; sourceTree = "<group>"; };
 		1FB0BF1721B7FA6500CABE1C /* HHSortController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHSortController.h; sourceTree = "<group>"; };
 		1FB0BF1821B7FA6500CABE1C /* HHSortController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHSortController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +102,8 @@
 				1F48C1FD21AEF2A900E410B9 /* HHReplicationLayerController.m */,
 				1F4F441C21B261FE0076C37D /* HHTransformController.h */,
 				1F4F441D21B261FE0076C37D /* HHTransformController.m */,
+				1F45982921BEC986007E1620 /* HHView.h */,
+				1F45982A21BEC986007E1620 /* HHView.m */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -181,6 +195,7 @@
 		1F570C0921A59E44000873E8 /* VisionIOS */ = {
 			isa = PBXGroup;
 			children = (
+				1F6FB11C21B9737E0006734D /* Offer */,
 				1FB0BF1621B7F9E100CABE1C /* Sort */,
 				1F4F442D21B3DEB30076C37D /* GCD */,
 				1F4F442821B3C0150076C37D /* Audio */,
@@ -192,10 +207,21 @@
 				1F6FB11721B955D70006734D /* ViewController.m */,
 				1F570C0A21A59E44000873E8 /* AppDelegate.h */,
 				1F570C0B21A59E44000873E8 /* AppDelegate.m */,
+				1F25F9DF21C0100F0007C147 /* YYFPSLabel.h */,
+				1F25F9DE21C0100F0007C147 /* YYFPSLabel.m */,
 				1F570C1321A59E45000873E8 /* Assets.xcassets */,
 				1F48C1F521AEE03F00E410B9 /* Supporting Files */,
 			);
 			path = VisionIOS;
+			sourceTree = "<group>";
+		};
+		1F6FB11C21B9737E0006734D /* Offer */ = {
+			isa = PBXGroup;
+			children = (
+				1F6FB11D21B973B20006734D /* Algorithms.h */,
+				1F6FB11E21B973B20006734D /* Algorithms.m */,
+			);
+			path = Offer;
 			sourceTree = "<group>";
 		};
 		1FB0BF1621B7F9E100CABE1C /* Sort */ = {
@@ -203,6 +229,8 @@
 			children = (
 				1FB0BF1721B7FA6500CABE1C /* HHSortController.h */,
 				1FB0BF1821B7FA6500CABE1C /* HHSortController.m */,
+				1F6FB11921B9589B0006734D /* stack.h */,
+				1F6FB11A21B9589B0006734D /* stack.c */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -280,6 +308,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F25F9E021C0100F0007C147 /* YYFPSLabel.m in Sources */,
+				1F6FB11B21B9589B0006734D /* stack.c in Sources */,
+				1F6FB11F21B973B20006734D /* Algorithms.m in Sources */,
 				1F6FB11821B955D80006734D /* ViewController.m in Sources */,
 				1F570C0F21A59E44000873E8 /* ViewController.m in Sources */,
 				1F48C1F321AEDB9C00E410B9 /* HHTouchPadController.m in Sources */,
@@ -294,6 +325,7 @@
 				1F570C0C21A59E44000873E8 /* AppDelegate.m in Sources */,
 				1F4F442C21B3D97A0076C37D /* HHAudioController.m in Sources */,
 				1F4F442321B275960076C37D /* HHScrollViewController.m in Sources */,
+				1F45982B21BEC986007E1620 /* HHView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

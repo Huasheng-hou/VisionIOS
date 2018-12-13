@@ -23,7 +23,9 @@
     
     [self _initViws];
 //    [self _rotate];
-    [self _rotateAlongY];
+//    [self _rotateAlongY];
+    
+    _transformLayer.anchorPoint = CGPointMake(0, 0);
 }
 
 - (void)_initViws {

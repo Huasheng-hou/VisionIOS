@@ -27,10 +27,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.window makeKeyAndVisible];
 
+    self.window.rootViewController = [[HHScrollViewController alloc] init];
 //    self.window.rootViewController = [[HHGcdController alloc] init];
     
 //    [self addObserver];
-    self.window.rootViewController = [[HHSortController alloc] init];
+//    self.window.rootViewController = [[HHSortController alloc] init];
 //    self.window.rootViewController = [[HHTransformController alloc] init];
 //    self.window.rootViewController = [[HHReplicationLayerController alloc] init];
 //    self.window.rootViewController = [[HHCoreAnimationController alloc] init];
