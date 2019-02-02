@@ -30,7 +30,9 @@
 		1F6FB11821B955D80006734D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FB11721B955D70006734D /* ViewController.m */; };
 		1F6FB11B21B9589B0006734D /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FB11A21B9589B0006734D /* stack.c */; };
 		1F6FB11F21B973B20006734D /* Algorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FB11E21B973B20006734D /* Algorithms.m */; };
+		1F7BEBE421C7D124008344EB /* thievies.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F7BEBE321C7D124008344EB /* thievies.mp3 */; };
 		1FB0BF1921B7FA6500CABE1C /* HHSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB0BF1821B7FA6500CABE1C /* HHSortController.m */; };
+		1FB3F9A421C29B0100412C4F /* calorie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FB3F9A321C29B0000412C4F /* calorie.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,8 +77,10 @@
 		1F6FB11A21B9589B0006734D /* stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
 		1F6FB11D21B973B20006734D /* Algorithms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Algorithms.h; sourceTree = "<group>"; };
 		1F6FB11E21B973B20006734D /* Algorithms.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Algorithms.m; sourceTree = "<group>"; };
+		1F7BEBE321C7D124008344EB /* thievies.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thievies.mp3; sourceTree = "<group>"; };
 		1FB0BF1721B7FA6500CABE1C /* HHSortController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHSortController.h; sourceTree = "<group>"; };
 		1FB0BF1821B7FA6500CABE1C /* HHSortController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHSortController.m; sourceTree = "<group>"; };
+		1FB3F9A321C29B0000412C4F /* calorie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = calorie.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 		1F48C1F521AEE03F00E410B9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1F7BEBE321C7D124008344EB /* thievies.mp3 */,
+				1FB3F9A321C29B0000412C4F /* calorie.mp3 */,
 				1F4F441A21B261E50076C37D /* arthur.jpg */,
 				1F48C1F721AEE0A400E410B9 /* 917971.jpg */,
 				1F570C1521A59E45000873E8 /* LaunchScreen.storyboard */,
@@ -292,8 +298,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FB3F9A421C29B0100412C4F /* calorie.mp3 in Resources */,
 				1F570C1721A59E45000873E8 /* LaunchScreen.storyboard in Resources */,
 				1F48C1F421AEDB9C00E410B9 /* HHTouchPadController.xib in Resources */,
+				1F7BEBE421C7D124008344EB /* thievies.mp3 in Resources */,
 				1F48C1ED21AEC3D000E410B9 /* HHCoreAnimationController.xib in Resources */,
 				1F570C1421A59E45000873E8 /* Assets.xcassets in Resources */,
 				1F48C1F821AEE0A400E410B9 /* 917971.jpg in Resources */,
@@ -459,6 +467,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z3FWA45AZZ;
 				INFOPLIST_FILE = "$(SRCROOT)/VisionIOS/Supporting Files/Info.plist";
@@ -467,8 +476,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hshou.VisionIOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hshou.VisionIOSDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -477,6 +487,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z3FWA45AZZ;
 				INFOPLIST_FILE = "$(SRCROOT)/VisionIOS/Supporting Files/Info.plist";
@@ -485,8 +496,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hshou.VisionIOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hshou.VisionIOSDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
