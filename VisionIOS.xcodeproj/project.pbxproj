@@ -27,6 +27,7 @@
 		1F570C1421A59E45000873E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F570C1321A59E45000873E8 /* Assets.xcassets */; };
 		1F570C1721A59E45000873E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F570C1521A59E45000873E8 /* LaunchScreen.storyboard */; };
 		1F570C1A21A59E45000873E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F570C1921A59E45000873E8 /* main.m */; };
+		1F6089F42205FC45006CF383 /* HHLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6089F32205FC45006CF383 /* HHLogger.m */; };
 		1F6FB11821B955D80006734D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FB11721B955D70006734D /* ViewController.m */; };
 		1F6FB11B21B9589B0006734D /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FB11A21B9589B0006734D /* stack.c */; };
 		1F6FB11F21B973B20006734D /* Algorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FB11E21B973B20006734D /* Algorithms.m */; };
@@ -72,6 +73,8 @@
 		1F570C1621A59E45000873E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F570C1821A59E45000873E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F570C1921A59E45000873E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F6089F22205FC45006CF383 /* HHLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHLogger.h; sourceTree = "<group>"; };
+		1F6089F32205FC45006CF383 /* HHLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHLogger.m; sourceTree = "<group>"; };
 		1F6FB11721B955D70006734D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1F6FB11921B9589B0006734D /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
 		1F6FB11A21B9589B0006734D /* stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
@@ -201,24 +204,34 @@
 		1F570C0921A59E44000873E8 /* VisionIOS */ = {
 			isa = PBXGroup;
 			children = (
-				1F6FB11C21B9737E0006734D /* Offer */,
-				1FB0BF1621B7F9E100CABE1C /* Sort */,
-				1F4F442D21B3DEB30076C37D /* GCD */,
-				1F4F442821B3C0150076C37D /* Audio */,
-				1F4F442421B3AFC80076C37D /* RunLoop */,
-				1F4F442021B275770076C37D /* UIKit */,
-				1F48C1F621AEE05600E410B9 /* Vision */,
-				1F48C1EF21AEDB6E00E410B9 /* ResponderChain */,
-				1F48C1E821AEC30300E410B9 /* CoreAnimation */,
-				1F6FB11721B955D70006734D /* ViewController.m */,
 				1F570C0A21A59E44000873E8 /* AppDelegate.h */,
-				1F570C0B21A59E44000873E8 /* AppDelegate.m */,
 				1F25F9DF21C0100F0007C147 /* YYFPSLabel.h */,
+				1F570C0B21A59E44000873E8 /* AppDelegate.m */,
+				1F6FB11721B955D70006734D /* ViewController.m */,
 				1F25F9DE21C0100F0007C147 /* YYFPSLabel.m */,
 				1F570C1321A59E45000873E8 /* Assets.xcassets */,
+				1F4F442821B3C0150076C37D /* Audio */,
+				1F48C1E821AEC30300E410B9 /* CoreAnimation */,
+				1F6089F12205FBFE006CF383 /* Daemon */,
+				1F4F442D21B3DEB30076C37D /* GCD */,
+				1F6FB11C21B9737E0006734D /* Offer */,
+				1F48C1EF21AEDB6E00E410B9 /* ResponderChain */,
+				1F4F442421B3AFC80076C37D /* RunLoop */,
+				1FB0BF1621B7F9E100CABE1C /* Sort */,
 				1F48C1F521AEE03F00E410B9 /* Supporting Files */,
+				1F4F442021B275770076C37D /* UIKit */,
+				1F48C1F621AEE05600E410B9 /* Vision */,
 			);
 			path = VisionIOS;
+			sourceTree = "<group>";
+		};
+		1F6089F12205FBFE006CF383 /* Daemon */ = {
+			isa = PBXGroup;
+			children = (
+				1F6089F22205FC45006CF383 /* HHLogger.h */,
+				1F6089F32205FC45006CF383 /* HHLogger.m */,
+			);
+			path = Daemon;
 			sourceTree = "<group>";
 		};
 		1F6FB11C21B9737E0006734D /* Offer */ = {
@@ -330,6 +343,7 @@
 				1F4F442721B3B2800076C37D /* UIApplication+RunLoop.m in Sources */,
 				1F570C1A21A59E45000873E8 /* main.m in Sources */,
 				1FB0BF1921B7FA6500CABE1C /* HHSortController.m in Sources */,
+				1F6089F42205FC45006CF383 /* HHLogger.m in Sources */,
 				1F570C0C21A59E44000873E8 /* AppDelegate.m in Sources */,
 				1F4F442C21B3D97A0076C37D /* HHAudioController.m in Sources */,
 				1F4F442321B275960076C37D /* HHScrollViewController.m in Sources */,

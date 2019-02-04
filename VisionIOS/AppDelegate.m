@@ -81,10 +81,10 @@ void *secondPthread(void *param) {
 //    self.window.rootViewController = [[HHScrollViewController alloc] init];
 //    self.window.rootViewController = [[HHGcdController alloc] init];
     
-//    [self addObserver];
+    [self addObserver];
 //    self.window.rootViewController = [[HHSortController alloc] init];
 //    self.window.rootViewController = [[HHTransformController alloc] init];
-//    self.window.rootViewController = [[HHReplicationLayerController alloc] init];
+    self.window.rootViewController = [[HHReplicationLayerController alloc] init];
 //    self.window.rootViewController = [[HHCoreAnimationController alloc] init];
 //    self.window.rootViewController = [[UINavigationController alloc]
 //                                        initWithRootViewController:[[ViewController alloc] init]];
