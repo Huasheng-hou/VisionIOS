@@ -22,4 +22,10 @@
     
 }
 
++ (void)saveToFile:(id)object {
+    
+    NSString *path = NSHomeDirectory();
+    [(NSArray *)object writeToFile:[path stringByAppendingString:@"/tt"] atomically:YES];
+}
+
 @end

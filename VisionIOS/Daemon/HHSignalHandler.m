@@ -7,6 +7,7 @@
 //
 
 #import "HHSignalHandler.h"
+#import "HHLogger.h"
 #import "signal.h"
 
 @implementation HHSignalHandler
@@ -20,6 +21,9 @@ void signalHandler(int signal) {
     //    }
 //    sem_wait(sem);
     NSLog(@"signal catched!\n");
+    NSArray *symbols = [NSThread callStackSymbols];
+    [HHLogger saveToFile:symbols];
+    
 //    sleep(5);
 //    NSLog(@"first thread post!\n");
 //    sem_post(sem);
@@ -32,7 +36,7 @@ void signalHandler(int signal) {
     signal(SIGSEGV, &signalHandler);
     signal(SIGKILL, &signalHandler);
     signal(SIGINT, &signalHandler);
-    signal(SIGINT, &signalHandler);
+    signal(SIGABRT, &signalHandler);
     signal(SIGINT, &signalHandler);
     
     

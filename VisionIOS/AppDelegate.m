@@ -22,6 +22,7 @@
 #import "semaphore.h"
 #import "signal.h"
 #import "HHSignalHandler.h"
+#import "HHLogger.h"
 
 @interface AppDelegate ()
 
@@ -67,7 +68,7 @@ void *secondPthread(void *param) {
     [self.window makeKeyAndVisible];
 //    self.window.rootViewController = [[HHTouchPadController alloc] init];
 //    self.window.rootViewController = [[HHAudioController alloc] init];
-    self.window.rootViewController = [[HHAudioController alloc] init];
+//    self.window.rootViewController = [[HHAudioController alloc] init];
     
     pthread_t thread1;
     pthread_t thread2;
@@ -77,9 +78,13 @@ void *secondPthread(void *param) {
     
     pthread_create(&thread1, NULL, operate, NULL);
     pthread_create(&thread2, NULL, secondPthread, NULL);
-    
+
+//    NSArray *symbols = [NSArray array];
+//    [HHLogger saveToFile:symbols];
     [HHSignalHandler install];
-    
+//    NSString *path = NSHomeDirectory();
+    NSArray *arr = @[@""];
+    arr[10];
 //    for (int i = 0; i < 500; i ++) {
 //
 //        pthread_t pthread;
