@@ -50,6 +50,24 @@
     
 }
 
+- (void)_initAudionSession {
+    
+    NSError *errorSession = nil;
+    
+    AVAudioSession *audioSession = [AVAudioSession sharedInstance];
+    
+    [audioSession setCategory:AVAudioSessionCategoryPlayAndRecord error:&errorSession];
+    
+}
+
+- (NSString *)filePath {
+    
+    NSString *path = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)lastObject];
+    NSString *filePath = [path stringByAppendingPathComponent:@"voice.caf"];
+    
+    return filePath;
+}
+
 - (void)record {
     
 }
