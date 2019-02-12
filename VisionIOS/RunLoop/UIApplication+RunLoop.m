@@ -12,6 +12,8 @@
 
 - (void)addObserver {
     
+    CFRunLoopRef ref = CFRunLoopGetCurrent();
+    
     CFRunLoopObserverRef observer = CFRunLoopObserverCreateWithHandler(kCFAllocatorDefault, kCFRunLoopAllActivities, YES, 0, ^(CFRunLoopObserverRef observer, CFRunLoopActivity activity) {
         
 //        NSLog(@"observer:%@", observer);
@@ -48,6 +50,9 @@
             default:
                 break;
         }
+        
+        CFRunLoopMode mode = CFRunLoopCopyCurrentMode(ref);
+        NSLog(@"mode is :%@\n", ref);
     });
     
     CFRunLoopAddObserver(CFRunLoopGetCurrent(), observer, kCFRunLoopCommonModes);
