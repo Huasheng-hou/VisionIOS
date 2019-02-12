@@ -19,6 +19,8 @@
 
 #import "pthread.h"
 #import "semaphore.h"
+#import "signal.h"
+#import "HHSignalHandler.h"
 
 @interface AppDelegate ()
 
@@ -73,6 +75,8 @@ void *secondPthread(void *param) {
     pthread_create(&thread1, NULL, operate, NULL);
     pthread_create(&thread2, NULL, secondPthread, NULL);
     
+    [HHSignalHandler install];
+    
 //    for (int i = 0; i < 500; i ++) {
 //
 //        pthread_t pthread;
@@ -81,7 +85,7 @@ void *secondPthread(void *param) {
 //    self.window.rootViewController = [[HHScrollViewController alloc] init];
 //    self.window.rootViewController = [[HHGcdController alloc] init];
     
-    [self addObserver];
+//    [self addObserver];
 //    self.window.rootViewController = [[HHSortController alloc] init];
 //    self.window.rootViewController = [[HHTransformController alloc] init];
     self.window.rootViewController = [[HHReplicationLayerController alloc] init];
