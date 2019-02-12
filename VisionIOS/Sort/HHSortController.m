@@ -7,6 +7,8 @@
 //
 
 #import "HHSortController.h"
+#import "HHQueue.h"
+#import "HHStack.h"
 
 @interface HHSortController ()
 
@@ -16,11 +18,44 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    int a[13] = {1, 3, 10, 9, 8, 5, 11, 8, 2, 0, -1, 8, 7};
-    [self mergeSort:a length:13];
-    for (int i = 0; i < 13; i++) {
-        printf("number is:%d\n", a[i]);
+    
+//    HHQueue *queue = [[HHQueue alloc] init];
+    HHStack *stack = [[HHStack alloc] init];
+    int a[35] = {1, 3, 10, 9, 8, 5, 11, 8,  2, 0,
+                -1, 8, 7,  2, 2, 3, 9,  16, 5, 0,
+                21, 3, 7,  4, 4, 3, 2,  4, 12, 98,
+                2, 3, 4, 5, 6
+    };
+//    [self mergeSort:a length:13];
+    for (int i = 0; i < 35; i++) {
+//        printf("number is:%d\n", a[i]);
+//        [queue enqueue:a[i]];
+        [stack push:a[i]];
     }
+    
+    for (int i = 0; i < 35; i++) {
+        
+        printf("poped number is:%d, stack size:%d\n", [stack pop], stack.stackSize);
+//        printf("dequeue number is:%d, queue size:%d\n", [queue dequeue], queue.queueSize);
+    }
+    
+//    float grid = [self divideRectangle:160 width:110];
+//    printf("grid is:%.5f\n", grid);
+    
+//    for (int i = 0; i < 100; i ++) {
+//
+//        for (int exponent = -10; exponent < 11; exponent ++) {
+//
+//            printf("base is:%.d\n", i);
+//            printf("exponent is:%.d\n", exponent);
+//
+//            double result = [self power:i / 1.f exponent:exponent];
+//            double libResult = pow(i / 1.f, exponent / 1.f);
+//
+//            printf("user result is:%.1f\n", result);
+//            printf("user result is:%.1f\n", libResult);
+//        }
+//    }
 }
 
 #pragma mark - sort algorithms
@@ -80,6 +115,44 @@
 }
 
 - (int)quickSort_Partition:(int *)array {
+    
+    return 0;
+}
+
+#pragma mark - Recursive Algorithms
+// divide a rectangle
+- (float)divideRectangle:(float)length width:(float)width {
+    
+    if (length <=0 || width <= 0) return 0;
+    if (length < width) return 0;
+    
+    float minus = length - width;
+    printf("minus is:%.5f\n", minus);
+    
+    if (minus == 0) {
+        
+        return width;
+    } else {
+        
+        if (width > minus) {
+            
+            return [self divideRectangle:width width:minus];
+        } else {
+            return [self divideRectangle:minus width:width];
+        }
+    }
+        
+    return 0;
+}
+
+- (double)power:(double)base exponent:(int)exponent {
+    
+//    if () return 0;
+//    if (exponent == 0)
+    return 0;
+}
+
+- (double)powerWithUnsignedExponent:(double)base exponent:(unsigned int)exponent {
     
     return 0;
 }

@@ -27,6 +27,10 @@
 		1F570C1A21A59E45000873E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F570C1921A59E45000873E8 /* main.m */; };
 		1F6FB11821B955D80006734D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FB11721B955D70006734D /* ViewController.m */; };
 		1FB0BF1921B7FA6500CABE1C /* HHSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB0BF1821B7FA6500CABE1C /* HHSortController.m */; };
+		641C6CB621E83FF200EB5279 /* HHQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 641C6CB521E83FF200EB5279 /* HHQueue.m */; };
+		641C6CB921E87F4600EB5279 /* HHStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 641C6CB821E87F4600EB5279 /* HHStack.m */; };
+		64A6497521CCE5F00088AA78 /* H3CFatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A6497321CCE5F00088AA78 /* H3CFatherView.m */; };
+		64A6497621CCE5F00088AA78 /* H3CChildView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A6497421CCE5F00088AA78 /* H3CChildView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +69,14 @@
 		1F6FB11721B955D70006734D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1FB0BF1721B7FA6500CABE1C /* HHSortController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHSortController.h; sourceTree = "<group>"; };
 		1FB0BF1821B7FA6500CABE1C /* HHSortController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHSortController.m; sourceTree = "<group>"; };
+		641C6CB421E83FF200EB5279 /* HHQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHQueue.h; sourceTree = "<group>"; };
+		641C6CB521E83FF200EB5279 /* HHQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHQueue.m; sourceTree = "<group>"; };
+		641C6CB721E87F4600EB5279 /* HHStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHStack.h; sourceTree = "<group>"; };
+		641C6CB821E87F4600EB5279 /* HHStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHStack.m; sourceTree = "<group>"; };
+		64A6497121CCE5F00088AA78 /* H3CChildView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H3CChildView.h; sourceTree = "<group>"; };
+		64A6497221CCE5F00088AA78 /* H3CFatherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H3CFatherView.h; sourceTree = "<group>"; };
+		64A6497321CCE5F00088AA78 /* H3CFatherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H3CFatherView.m; sourceTree = "<group>"; };
+		64A6497421CCE5F00088AA78 /* H3CChildView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H3CChildView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,10 @@
 		1F48C1EF21AEDB6E00E410B9 /* ResponderChain */ = {
 			isa = PBXGroup;
 			children = (
+				64A6497121CCE5F00088AA78 /* H3CChildView.h */,
+				64A6497421CCE5F00088AA78 /* H3CChildView.m */,
+				64A6497221CCE5F00088AA78 /* H3CFatherView.h */,
+				64A6497321CCE5F00088AA78 /* H3CFatherView.m */,
 				1F48C1F021AEDB9C00E410B9 /* HHTouchPadController.h */,
 				1F48C1F121AEDB9C00E410B9 /* HHTouchPadController.m */,
 				1F48C1F221AEDB9C00E410B9 /* HHTouchPadController.xib */,
@@ -203,6 +219,10 @@
 			children = (
 				1FB0BF1721B7FA6500CABE1C /* HHSortController.h */,
 				1FB0BF1821B7FA6500CABE1C /* HHSortController.m */,
+				641C6CB421E83FF200EB5279 /* HHQueue.h */,
+				641C6CB521E83FF200EB5279 /* HHQueue.m */,
+				641C6CB721E87F4600EB5279 /* HHStack.h */,
+				641C6CB821E87F4600EB5279 /* HHStack.m */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -283,8 +303,11 @@
 				1F6FB11821B955D80006734D /* ViewController.m in Sources */,
 				1F570C0F21A59E44000873E8 /* ViewController.m in Sources */,
 				1F48C1F321AEDB9C00E410B9 /* HHTouchPadController.m in Sources */,
+				64A6497521CCE5F00088AA78 /* H3CFatherView.m in Sources */,
 				1F4F443021B3DED30076C37D /* HHGcdController.m in Sources */,
 				1F4F441E21B261FE0076C37D /* HHTransformController.m in Sources */,
+				641C6CB921E87F4600EB5279 /* HHStack.m in Sources */,
+				64A6497621CCE5F00088AA78 /* H3CChildView.m in Sources */,
 				1F48C1FE21AEF2A900E410B9 /* HHReplicationLayerController.m in Sources */,
 				1F48C1FB21AEE65200E410B9 /* HHTiledLayerController.m in Sources */,
 				1F48C1EE21AEC81A00E410B9 /* HHCoreAnimationController.m in Sources */,
@@ -294,6 +317,7 @@
 				1F570C0C21A59E44000873E8 /* AppDelegate.m in Sources */,
 				1F4F442C21B3D97A0076C37D /* HHAudioController.m in Sources */,
 				1F4F442321B275960076C37D /* HHScrollViewController.m in Sources */,
+				641C6CB621E83FF200EB5279 /* HHQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,8 +451,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z3FWA45AZZ;
+				DEVELOPMENT_TEAM = 3XY474KY37;
 				INFOPLIST_FILE = "$(SRCROOT)/VisionIOS/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -437,6 +462,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hshou.VisionIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -445,8 +471,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z3FWA45AZZ;
+				DEVELOPMENT_TEAM = 3XY474KY37;
 				INFOPLIST_FILE = "$(SRCROOT)/VisionIOS/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,6 +482,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hshou.VisionIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

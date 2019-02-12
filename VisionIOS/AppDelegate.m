@@ -15,6 +15,8 @@
 #import "UIApplication+RunLoop.h"
 #import "HHGcdController.h"
 #import "HHSortController.h"
+#import "HHAudioController.h"
+#import "HHTouchPadController.h"
 
 @interface AppDelegate ()
 
@@ -25,8 +27,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    [self.window makeKeyAndVisible];
 
+    [self.window makeKeyAndVisible];
+//    self.window.rootViewController = [[HHTouchPadController alloc] init];
+//    self.window.rootViewController = [[HHAudioController alloc] init];
 //    self.window.rootViewController = [[HHGcdController alloc] init];
     
 //    [self addObserver];
