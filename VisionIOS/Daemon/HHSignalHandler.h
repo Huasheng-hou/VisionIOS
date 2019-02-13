@@ -1,8 +1,8 @@
 //
-//  HHLogger.h
+//  HHSignalHandler.h
 //  VisionIOS
 //
-//  Created by 华生侯 on 2019/2/3.
+//  Created by 华生侯 on 2019/2/4.
 //  Copyright © 2019 华生侯. All rights reserved.
 //
 
@@ -10,13 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HHLogger : NSObject
+@interface HHSignalHandler : NSObject
 
-+ (void)start;
-+ (void)suspend;
-+ (void)stop;
-
-+ (void)saveToFile:(id)object;
++ (void)install;
 
 @end
 

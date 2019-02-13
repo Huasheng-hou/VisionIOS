@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F1434ED220811A500CA2313 /* HHSignalHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1434EC220811A500CA2313 /* HHSignalHandler.m */; };
 		1F25F9E021C0100F0007C147 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F25F9DE21C0100F0007C147 /* YYFPSLabel.m */; };
 		1F45982B21BEC986007E1620 /* HHView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F45982A21BEC986007E1620 /* HHView.m */; };
 		1F48C1ED21AEC3D000E410B9 /* HHCoreAnimationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F48C1EB21AEC3D000E410B9 /* HHCoreAnimationController.xib */; };
@@ -42,6 +43,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F1434EB220811A500CA2313 /* HHSignalHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHSignalHandler.h; sourceTree = "<group>"; };
+		1F1434EC220811A500CA2313 /* HHSignalHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHSignalHandler.m; sourceTree = "<group>"; };
 		1F25F9DE21C0100F0007C147 /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
 		1F25F9DF21C0100F0007C147 /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
 		1F45982921BEC986007E1620 /* HHView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHView.h; sourceTree = "<group>"; };
@@ -228,6 +231,7 @@
 				1F6FB11721B955D70006734D /* ViewController.m */,
 				1F25F9DF21C0100F0007C147 /* YYFPSLabel.h */,
 				1F25F9DE21C0100F0007C147 /* YYFPSLabel.m */,
+				1F6FB11721B955D70006734D /* ViewController.m */,
 				1F570C1321A59E45000873E8 /* Assets.xcassets */,
 				1F4F442821B3C0150076C37D /* Audio */,
 				1F48C1E821AEC30300E410B9 /* CoreAnimation */,
@@ -250,6 +254,8 @@
 			children = (
 				1F6089F22205FC45006CF383 /* HHLogger.h */,
 				1F6089F32205FC45006CF383 /* HHLogger.m */,
+				1F1434EB220811A500CA2313 /* HHSignalHandler.h */,
+				1F1434EC220811A500CA2313 /* HHSignalHandler.m */,
 			);
 			path = Daemon;
 			sourceTree = "<group>";
@@ -362,6 +368,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F1434ED220811A500CA2313 /* HHSignalHandler.m in Sources */,
 				1F25F9E021C0100F0007C147 /* YYFPSLabel.m in Sources */,
 				1F6FB11B21B9589B0006734D /* stack.c in Sources */,
 				1F6FB11F21B973B20006734D /* Algorithms.m in Sources */,

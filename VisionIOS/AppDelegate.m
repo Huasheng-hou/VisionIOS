@@ -18,6 +18,7 @@
 #import "HHAudioController.h"
 #import "HHTouchPadController.h"
 
+#import "HHSignalHandler.h"
 #import "HHLogger.h"
 
 @interface AppDelegate ()
@@ -31,8 +32,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.window makeKeyAndVisible];
     
-    [HHLogger start];
-    
+    [HHLogger start];    
+    [HHSignalHandler install];
+
     self.window.rootViewController = [[HHReplicationLayerController alloc] init];
     return YES;
 }
