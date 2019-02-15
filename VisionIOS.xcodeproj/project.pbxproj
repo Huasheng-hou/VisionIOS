@@ -35,7 +35,12 @@
 		1F7BEBE421C7D124008344EB /* thievies.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F7BEBE321C7D124008344EB /* thievies.mp3 */; };
 		1FB0BF1921B7FA6500CABE1C /* HHSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB0BF1821B7FA6500CABE1C /* HHSortController.m */; };
 		1FB3F9A421C29B0100412C4F /* calorie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FB3F9A321C29B0000412C4F /* calorie.mp3 */; };
+		4A2DCE60D5E59A145B559084 /* libPods-VisionIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEFC49578CB9C7136E638D9A /* libPods-VisionIOS.a */; };
 		6403CE612212BBB1006C489E /* HHThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 6403CE602212BBB1006C489E /* HHThread.m */; };
+		6403CE652213C403006C489E /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6403CE642213C403006C489E /* BSBacktraceLogger.m */; };
+		6403CE682213EC2E006C489E /* HHExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6403CE672213EC2E006C489E /* HHExceptionHandler.m */; };
+		6403CE6D2213F1F8006C489E /* HHOCCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 6403CE6C2213F1F8006C489E /* HHOCCrash.m */; };
+		6403CE702215670E006C489E /* HHMachExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6403CE6F2215670E006C489E /* HHMachExceptionHandler.m */; };
 		641C6CB621E83FF200EB5279 /* HHQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 641C6CB521E83FF200EB5279 /* HHQueue.m */; };
 		641C6CB921E87F4600EB5279 /* HHStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 641C6CB821E87F4600EB5279 /* HHStack.m */; };
 		64A6497521CCE5F00088AA78 /* H3CFatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A6497321CCE5F00088AA78 /* H3CFatherView.m */; };
@@ -94,6 +99,15 @@
 		1FB3F9A321C29B0000412C4F /* calorie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = calorie.mp3; sourceTree = "<group>"; };
 		6403CE5F2212BBB1006C489E /* HHThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHThread.h; sourceTree = "<group>"; };
 		6403CE602212BBB1006C489E /* HHThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHThread.m; sourceTree = "<group>"; };
+		6403CE622213BAEA006C489E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6403CE632213C403006C489E /* BSBacktraceLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBacktraceLogger.h; sourceTree = "<group>"; };
+		6403CE642213C403006C489E /* BSBacktraceLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBacktraceLogger.m; sourceTree = "<group>"; };
+		6403CE662213EC2E006C489E /* HHExceptionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHExceptionHandler.h; sourceTree = "<group>"; };
+		6403CE672213EC2E006C489E /* HHExceptionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHExceptionHandler.m; sourceTree = "<group>"; };
+		6403CE6B2213F1F8006C489E /* HHOCCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHOCCrash.h; sourceTree = "<group>"; };
+		6403CE6C2213F1F8006C489E /* HHOCCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHOCCrash.m; sourceTree = "<group>"; };
+		6403CE6E2215670E006C489E /* HHMachExceptionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHMachExceptionHandler.h; sourceTree = "<group>"; };
+		6403CE6F2215670E006C489E /* HHMachExceptionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHMachExceptionHandler.m; sourceTree = "<group>"; };
 		641C6CB421E83FF200EB5279 /* HHQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHQueue.h; sourceTree = "<group>"; };
 		641C6CB521E83FF200EB5279 /* HHQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHQueue.m; sourceTree = "<group>"; };
 		641C6CB721E87F4600EB5279 /* HHStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHStack.h; sourceTree = "<group>"; };
@@ -102,6 +116,9 @@
 		64A6497221CCE5F00088AA78 /* H3CFatherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H3CFatherView.h; sourceTree = "<group>"; };
 		64A6497321CCE5F00088AA78 /* H3CFatherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H3CFatherView.m; sourceTree = "<group>"; };
 		64A6497421CCE5F00088AA78 /* H3CChildView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H3CChildView.m; sourceTree = "<group>"; };
+		863235FE0F5E4E14287CF275 /* Pods-VisionIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionIOS.debug.xcconfig"; path = "Target Support Files/Pods-VisionIOS/Pods-VisionIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		AEFC49578CB9C7136E638D9A /* libPods-VisionIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VisionIOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E3BFD5ED656038D1AA8D02 /* Pods-VisionIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionIOS.release.xcconfig"; path = "Target Support Files/Pods-VisionIOS/Pods-VisionIOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A2DCE60D5E59A145B559084 /* libPods-VisionIOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +176,7 @@
 				1F570C1821A59E45000873E8 /* Info.plist */,
 				1F570C1921A59E45000873E8 /* main.m */,
 				1F4F441F21B269860076C37D /* Colors.h */,
+				6403CE622213BAEA006C489E /* PrefixHeader.pch */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -212,6 +231,8 @@
 			children = (
 				1F570C0921A59E44000873E8 /* VisionIOS */,
 				1F570C0821A59E44000873E8 /* Products */,
+				963E811A38A7D2EC1E6A2FC1 /* Pods */,
+				4EDBF6B4F41EF2BC50A0CBB2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -231,20 +252,13 @@
 				1F6FB11721B955D70006734D /* ViewController.m */,
 				1F25F9DF21C0100F0007C147 /* YYFPSLabel.h */,
 				1F25F9DE21C0100F0007C147 /* YYFPSLabel.m */,
-				1F6FB11721B955D70006734D /* ViewController.m */,
 				1F570C1321A59E45000873E8 /* Assets.xcassets */,
-				1F4F442821B3C0150076C37D /* Audio */,
-				1F48C1E821AEC30300E410B9 /* CoreAnimation */,
+				6403CE6A2213F1DD006C489E /* Crash */,
 				1F6089F12205FBFE006CF383 /* Daemon */,
-				1F4F442D21B3DEB30076C37D /* GCD */,
-				1F6FB11C21B9737E0006734D /* Offer */,
+				6403CE692213F05B006C489E /* Feature */,
 				6403CE5E2212BB8C006C489E /* POSIX */,
-				1F48C1EF21AEDB6E00E410B9 /* ResponderChain */,
 				1F4F442421B3AFC80076C37D /* RunLoop */,
-				1FB0BF1621B7F9E100CABE1C /* Sort */,
 				1F48C1F521AEE03F00E410B9 /* Supporting Files */,
-				1F4F442021B275770076C37D /* UIKit */,
-				1F48C1F621AEE05600E410B9 /* Vision */,
 			);
 			path = VisionIOS;
 			sourceTree = "<group>";
@@ -256,6 +270,10 @@
 				1F6089F32205FC45006CF383 /* HHLogger.m */,
 				1F1434EB220811A500CA2313 /* HHSignalHandler.h */,
 				1F1434EC220811A500CA2313 /* HHSignalHandler.m */,
+				6403CE662213EC2E006C489E /* HHExceptionHandler.h */,
+				6403CE672213EC2E006C489E /* HHExceptionHandler.m */,
+				6403CE6E2215670E006C489E /* HHMachExceptionHandler.h */,
+				6403CE6F2215670E006C489E /* HHMachExceptionHandler.m */,
 			);
 			path = Daemon;
 			sourceTree = "<group>";
@@ -284,13 +302,56 @@
 			path = Sort;
 			sourceTree = "<group>";
 		};
+		4EDBF6B4F41EF2BC50A0CBB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEFC49578CB9C7136E638D9A /* libPods-VisionIOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6403CE5E2212BB8C006C489E /* POSIX */ = {
 			isa = PBXGroup;
 			children = (
+				6403CE632213C403006C489E /* BSBacktraceLogger.h */,
+				6403CE642213C403006C489E /* BSBacktraceLogger.m */,
 				6403CE5F2212BBB1006C489E /* HHThread.h */,
 				6403CE602212BBB1006C489E /* HHThread.m */,
 			);
 			path = POSIX;
+			sourceTree = "<group>";
+		};
+		6403CE692213F05B006C489E /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				1F4F442821B3C0150076C37D /* Audio */,
+				1F48C1E821AEC30300E410B9 /* CoreAnimation */,
+				1F4F442D21B3DEB30076C37D /* GCD */,
+				1F6FB11C21B9737E0006734D /* Offer */,
+				1F48C1EF21AEDB6E00E410B9 /* ResponderChain */,
+				1FB0BF1621B7F9E100CABE1C /* Sort */,
+				1F4F442021B275770076C37D /* UIKit */,
+				1F48C1F621AEE05600E410B9 /* Vision */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		6403CE6A2213F1DD006C489E /* Crash */ = {
+			isa = PBXGroup;
+			children = (
+				6403CE6B2213F1F8006C489E /* HHOCCrash.h */,
+				6403CE6C2213F1F8006C489E /* HHOCCrash.m */,
+			);
+			path = Crash;
+			sourceTree = "<group>";
+		};
+		963E811A38A7D2EC1E6A2FC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				863235FE0F5E4E14287CF275 /* Pods-VisionIOS.debug.xcconfig */,
+				E0E3BFD5ED656038D1AA8D02 /* Pods-VisionIOS.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +361,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F570C1D21A59E45000873E8 /* Build configuration list for PBXNativeTarget "VisionIOS" */;
 			buildPhases = (
+				1A4F024EB0448089420C70B8 /* [CP] Check Pods Manifest.lock */,
 				1F570C0321A59E44000873E8 /* Sources */,
 				1F570C0421A59E44000873E8 /* Frameworks */,
 				1F570C0521A59E44000873E8 /* Resources */,
@@ -363,6 +425,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A4F024EB0448089420C70B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VisionIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F570C0321A59E44000873E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -373,6 +460,8 @@
 				1F6FB11B21B9589B0006734D /* stack.c in Sources */,
 				1F6FB11F21B973B20006734D /* Algorithms.m in Sources */,
 				1F6FB11821B955D80006734D /* ViewController.m in Sources */,
+				6403CE6D2213F1F8006C489E /* HHOCCrash.m in Sources */,
+				6403CE682213EC2E006C489E /* HHExceptionHandler.m in Sources */,
 				1F570C0F21A59E44000873E8 /* ViewController.m in Sources */,
 				6403CE612212BBB1006C489E /* HHThread.m in Sources */,
 				1F48C1F321AEDB9C00E410B9 /* HHTouchPadController.m in Sources */,
@@ -388,9 +477,11 @@
 				1F570C1A21A59E45000873E8 /* main.m in Sources */,
 				1FB0BF1921B7FA6500CABE1C /* HHSortController.m in Sources */,
 				1F6089F42205FC45006CF383 /* HHLogger.m in Sources */,
+				6403CE702215670E006C489E /* HHMachExceptionHandler.m in Sources */,
 				1F570C0C21A59E44000873E8 /* AppDelegate.m in Sources */,
 				1F4F442C21B3D97A0076C37D /* HHAudioController.m in Sources */,
 				1F4F442321B275960076C37D /* HHScrollViewController.m in Sources */,
+				6403CE652213C403006C489E /* BSBacktraceLogger.m in Sources */,
 				641C6CB621E83FF200EB5279 /* HHQueue.m in Sources */,
 				1F45982B21BEC986007E1620 /* HHView.m in Sources */,
 			);
@@ -451,6 +542,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$SRCROOT/VisionIOS/Supporting Files/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -508,6 +601,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$SRCROOT/VisionIOS/Supporting Files/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -524,6 +619,7 @@
 		};
 		1F570C1E21A59E45000873E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 863235FE0F5E4E14287CF275 /* Pods-VisionIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -544,6 +640,7 @@
 		};
 		1F570C1F21A59E45000873E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0E3BFD5ED656038D1AA8D02 /* Pods-VisionIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

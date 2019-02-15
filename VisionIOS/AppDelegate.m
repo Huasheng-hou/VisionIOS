@@ -19,6 +19,7 @@
 #import "HHTouchPadController.h"
 
 #import "HHSignalHandler.h"
+#import "HHExceptionHandler.h"
 #import "HHLogger.h"
 
 @interface AppDelegate ()
@@ -32,10 +33,12 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.window makeKeyAndVisible];
     
-    [HHLogger start];    
     [HHSignalHandler install];
-
+    InstallUncaughtExceptionHandler();
     self.window.rootViewController = [[HHReplicationLayerController alloc] init];
+    
+    [HHOCCrash crash_DanglingPointer];
+    
     return YES;
 }
 

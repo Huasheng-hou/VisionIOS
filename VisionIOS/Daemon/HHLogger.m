@@ -39,8 +39,26 @@ void signal_handler(int signal) {
 
 + (void)saveToFile:(id)object {
     
-    NSString *path = NSHomeDirectory();
-    [(NSArray *)object writeToFile:[path stringByAppendingString:@"/tt"] atomically:YES];
+    NSString *path = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents"];
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+    
+    NSString *filename = [NSString stringWithFormat:@"%@-%@", [formatter stringFromDate:[NSDate date]],
+                          [[FCUUID uuid] stringByAppendingString:@".log"]];
+    
+    filename = [path stringByAppendingPathComponent:filename];
+    
+    if ([object isKindOfClass:[NSString class]]) {
+        
+        NSString *str = (NSString *)object;
+        [str writeToFile:filename atomically:YES encoding:NSUTF8StringEncoding error:nil];
+    } else if ([object isKindOfClass:[NSArray class]]) {
+        
+        [(NSArray *)object writeToFile:filename atomically:YES];
+    } else if ([object isKindOfClass:[NSDictionary class]]) {
+        
+        [(NSDictionary *)object writeToFile:filename atomically:YES];
+    }
 }
 
 @end
