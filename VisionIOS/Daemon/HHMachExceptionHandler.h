@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HHMachExceptionHandler : NSObject
 
++ (void)createAndSetExceptionPort;
+
 @end
 
 NS_ASSUME_NONNULL_END

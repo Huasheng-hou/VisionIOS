@@ -20,6 +20,7 @@
 
 #import "HHSignalHandler.h"
 #import "HHExceptionHandler.h"
+#import "HHMachExceptionHandler.h"
 #import "HHLogger.h"
 
 @interface AppDelegate ()
@@ -33,10 +34,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.window makeKeyAndVisible];
     
-    [HHSignalHandler install];
-    InstallUncaughtExceptionHandler();
+//    [HHSignalHandler install];
+//    InstallUncaughtExceptionHandler();
     self.window.rootViewController = [[HHReplicationLayerController alloc] init];
     
+    [HHMachExceptionHandler createAndSetExceptionPort];
     [HHOCCrash crash_DanglingPointer];
     
     return YES;
