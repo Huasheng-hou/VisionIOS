@@ -39,7 +39,7 @@
     self.window.rootViewController = [[HHReplicationLayerController alloc] init];
     
     [HHMachExceptionHandler createAndSetExceptionPort];
-    [HHOCCrash crash_DanglingPointer];
+    [HHOCCrash crash_DiviceByZero];
     
     return YES;
 }
