@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)crash_unRecognizedSelector;
 + (void)crash_ArrayOutOfBound;
 + (void)crash_DanglingPointer;
++ (void)crash_DiviceByZero;
 
 @end
 

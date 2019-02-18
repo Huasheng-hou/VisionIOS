@@ -27,4 +27,10 @@
     [obj performSelector:@selector(isKindOfClass:)];
 }
 
++ (void)crash_DiviceByZero {
+    
+    int * pointer = 0x01;
+    *pointer = 01000;
+}
+
 @end
