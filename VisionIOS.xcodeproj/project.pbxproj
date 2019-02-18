@@ -24,7 +24,6 @@
 		1F4F442C21B3D97A0076C37D /* HHAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4F442B21B3D97A0076C37D /* HHAudioController.m */; };
 		1F4F443021B3DED30076C37D /* HHGcdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4F442F21B3DED30076C37D /* HHGcdController.m */; };
 		1F570C0C21A59E44000873E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F570C0B21A59E44000873E8 /* AppDelegate.m */; };
-		1F570C0F21A59E44000873E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F570C0E21A59E44000873E8 /* ViewController.m */; };
 		1F570C1421A59E45000873E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F570C1321A59E45000873E8 /* Assets.xcassets */; };
 		1F570C1721A59E45000873E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F570C1521A59E45000873E8 /* LaunchScreen.storyboard */; };
 		1F570C1A21A59E45000873E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F570C1921A59E45000873E8 /* main.m */; };
@@ -80,8 +79,6 @@
 		1F570C0721A59E44000873E8 /* VisionIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F570C0A21A59E44000873E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1F570C0B21A59E44000873E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1F570C0D21A59E44000873E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1F570C0E21A59E44000873E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1F570C1321A59E45000873E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F570C1621A59E45000873E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F570C1821A59E45000873E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -108,6 +105,7 @@
 		6403CE6C2213F1F8006C489E /* HHOCCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHOCCrash.m; sourceTree = "<group>"; };
 		6403CE6E2215670E006C489E /* HHMachExceptionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHMachExceptionHandler.h; sourceTree = "<group>"; };
 		6403CE6F2215670E006C489E /* HHMachExceptionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHMachExceptionHandler.m; sourceTree = "<group>"; };
+		6403CE71221692A9006C489E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		641C6CB421E83FF200EB5279 /* HHQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHQueue.h; sourceTree = "<group>"; };
 		641C6CB521E83FF200EB5279 /* HHQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHQueue.m; sourceTree = "<group>"; };
 		641C6CB721E87F4600EB5279 /* HHStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHStack.h; sourceTree = "<group>"; };
@@ -181,15 +179,6 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1F48C1F621AEE05600E410B9 /* Vision */ = {
-			isa = PBXGroup;
-			children = (
-				1F570C0D21A59E44000873E8 /* ViewController.h */,
-				1F570C0E21A59E44000873E8 /* ViewController.m */,
-			);
-			path = Vision;
-			sourceTree = "<group>";
-		};
 		1F4F442021B275770076C37D /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,6 +238,7 @@
 			children = (
 				1F570C0A21A59E44000873E8 /* AppDelegate.h */,
 				1F570C0B21A59E44000873E8 /* AppDelegate.m */,
+				6403CE71221692A9006C489E /* ViewController.h */,
 				1F6FB11721B955D70006734D /* ViewController.m */,
 				1F25F9DF21C0100F0007C147 /* YYFPSLabel.h */,
 				1F25F9DE21C0100F0007C147 /* YYFPSLabel.m */,
@@ -331,7 +321,6 @@
 				1F48C1EF21AEDB6E00E410B9 /* ResponderChain */,
 				1FB0BF1621B7F9E100CABE1C /* Sort */,
 				1F4F442021B275770076C37D /* UIKit */,
-				1F48C1F621AEE05600E410B9 /* Vision */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
@@ -462,7 +451,6 @@
 				1F6FB11821B955D80006734D /* ViewController.m in Sources */,
 				6403CE6D2213F1F8006C489E /* HHOCCrash.m in Sources */,
 				6403CE682213EC2E006C489E /* HHExceptionHandler.m in Sources */,
-				1F570C0F21A59E44000873E8 /* ViewController.m in Sources */,
 				6403CE612212BBB1006C489E /* HHThread.m in Sources */,
 				1F48C1F321AEDB9C00E410B9 /* HHTouchPadController.m in Sources */,
 				64A6497521CCE5F00088AA78 /* H3CFatherView.m in Sources */,

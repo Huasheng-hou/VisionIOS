@@ -35,9 +35,7 @@
     
     [HHSignalHandler install];
     InstallUncaughtExceptionHandler();
-    self.window.rootViewController = [[HHReplicationLayerController alloc] init];
-    
-    [HHOCCrash crash_DanglingPointer];
+    self.window.rootViewController = [[ViewController alloc] init];
     
     return YES;
 }
