@@ -51,8 +51,8 @@
                 break;
         }
         
-        CFRunLoopMode mode = CFRunLoopCopyCurrentMode(ref);
-        NSLog(@"mode is :%@\n", ref);
+//        CFRunLoopMode mode = CFRunLoopCopyCurrentMode(ref);
+//        NSLog(@"mode is :%@\n", ref);
     });
     
     CFRunLoopAddObserver(CFRunLoopGetCurrent(), observer, kCFRunLoopCommonModes);
